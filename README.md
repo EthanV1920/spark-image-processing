@@ -7,7 +7,7 @@ After acquisition, the photos were brought into an image processing software whe
 In order to calculate spark density and spark length, the binarized images were examined and the area of white pixels was calculated and divided by the total area of the image. This could then be averaged across all data points in each sample and a single value could be calculated that represents the spark density for each sample. To calculate the spark length, the images were again examined and the major axis length of every region of white pixels was taken and averaged together per photo. This was then fed into a denoise algorithm which removed erroneous values and then finally averaged across all data points in a sample.
 
 
-
+![Image Processing Pipeline](https://github.com/EthanV1920/spark-image-processing/blob/ced25b0a52260ceada3393c32cd7ae24e78d4b79/Image%20Processing%20Pipeline.png "Image Processing Pipeline")
 
 ## Setting up Data 
 
